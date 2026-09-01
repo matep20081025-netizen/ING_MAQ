@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>INGMAQ | Soluciones Industriales</title>
+ 
+<style>
+ 
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI,sans-serif;
+}
+ 
+html{
+scroll-behavior:smooth;
+}
+ 
+body{
+background:#f5f5f5;
+}
+ 
+header{
+position:fixed;
+width:100%;
+top:0;
+left:0;
+z-index:1000;
+background:#0f172a;
+transition:0.3s;
+}
+ 
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 10%;
+}
+ 
+.logo{
+color:#f59e0b;
+font-size:30px;
+font-weight:bold;
+}
+ 
+.menu a{
+color:white;
+text-decoration:none;
+margin-left:25px;
+font-weight:bold;
+}
+ 
+.menu a:hover{
+color:#f59e0b;
+}
+ 
+.hero{
+height:100vh;
+background:
+linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+url("https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=1600&q=80");
+
+background-size:cover;
+background-position:center;
+
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+
+text-align:center;
+color:white;
+padding:20px;
+}
+
+.hero h1{
+font-size:80px;
+}
+ 
+.hero p{
+font-size:24px;
+max-width:700px;
+margin-top:20px;
+}
+ 
+.btn{
+margin-top:30px;
+background:#f59e0b;
+color:white;
+text-decoration:none;
+padding:15px 35px;
+border-radius:10px;
+}
+ 
+.seccion{
+padding:100px 10%;
+}
+ 
+.seccion h2{
+text-align:center;
+color:#0f172a;
+margin-bottom:30px;
+font-size:40px;
+}
+ 
+.seccion p{
+max-width:900px;
+margin:auto;
+text-align:center;
+line-height:1.8;
+}
+ 
+.cards{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:25px;
+}
+ 
+.card{
+background:white;
+width:300px;
+padding:25px;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+transition:.3s;
+}
+ 
+.card:hover{
+transform:translateY(-10px);
+}
+
+.card h3{
+color:#f59e0b;
+margin-bottom:10px;
+
+
+.estadisticas{
+background:#0f172a;
+color:white;
+}
+
+.estadisticas h2{
+color:white;
+}
+
+.numeros{
+display:flex;
+justify-content:center;
+gap:70px;
+flex-wrap:wrap;
+}
+
+.numero{
+text-align:center;
+}
+
+.numero h3{
+font-size:55px;
+color:#f59e0b;
+}
+
+.contacto{
+background:white;
+}
+
+form{
+max-width:600px;
+margin:auto;
+}
+
+input,
+textarea{
+width:100%;
+padding:15px;
+margin-bottom:15px;
+border:1px solid #ccc;
+border-radius:8px;
+}
+
+button{
+width:100%;
+padding:15px;
+border:none;
+background:#f59e0b;
+color:white;
+border-radius:8px;
+cursor:pointer;
+}
+
+button:hover{
+background:#d97706;
+}
+
+footer{
+background:#0f172a;
+color:white;
+text-align:center;
+padding:25px;
+}
+
+.whatsapp{
+position:fixed;
+right:20px;
+bottom:20px;
+background:#25D366;
+color:white;
+text-decoration:none;
+width:60px;
+height:60px;
+border-radius:50%;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:30px;
+}
+
+@media(max-width:768px){
+
+nav{
+flex-direction:column;
+gap:15px;
+}
+
+.hero h1{
+font-size:50px;
+}
+
+.hero p{
+font-size:18px;
+}
+
+.menu{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.menu a{
+margin:5px 10px;
+}
+}
+
+</style>
+</head>
+<body>
+
+<header id="header">
+<nav>
+ 
+<div class="logo">INGMAQ</div>
+ 
+<div class="menu">
+#inicioInicio</a>
+#nosotrosQuiénes Somos</a>
+#serviciosServicios</a>
+#contactoContacto</a>
+</div>
+ 
+</nav>
+</header>
+ 
+<section class="hero" id="inicio">
+ 
+<h1>INGMAQ</h1>
+ 
+<p>
+Soluciones Industriales con Calidad, Innovación y Compromiso.
+</p>
+ 
+#contacto
+Solicitar Información
+</a>
+ 
+</section>
+ 
+<section class="seccion" id="nosotros">
+ 
+<h2>Quiénes Somos</h2>
+ 
+<p>
+INGMAQ es una empresa especializada en el sector industrial,
+comprometida con la excelencia operativa, la seguridad y la calidad.
+Nuestro equipo trabaja para ofrecer soluciones confiables que ayuden
+a mejorar la productividad y eficiencia de nuestros clientes.
+</p>
+ 
+</section>
+ 
+<section class="seccion" id="servicios">
+ 
+<h2>Nuestros Servicios</h2>
+ 
+<div class="cards">
+ 
+<div class="card">
+<h3>Mantenimiento Industrial</h3>
+<p>
+Servicios preventivos y correctivos para maquinaria y equipos.
+</p>
+</div>
+ 
+<div class="card">
+<h3>Montajes Industriales</h3>
+<p>
+Instalación y puesta en marcha de infraestructura industrial.
+</p>
+</div>
+ 
+<div class="card">
+<h3>Ingeniería y Diseño</h3>
+<p>
+Desarrollo de proyectos y soluciones personalizadas.
+</p>
+</div>
+ 
+</div>
+ 
+</section>
+ 
+<section class="seccion estadisticas">
+ 
+<h2>Nuestra Experiencia</h2>
+ 
+<div class="numeros">
+ 
+<div class="numero">
+<h3 class="contador" data-target="10">0</h3>
+<p>Años de experiencia</p>
+</div>
+ 
+<div class="numero">
+<h3 class="contador" data-target="250">0</h3>
+<p>Proyectos completados</p>
+</div>
+ 
+<div class="numero">
+<h3 class="contador" data-target="100">0</h3>
+<p>Clientes satisfechos</p>
+</div>
+ 
+</div>
+ 
+</section>
+ 
+<section class="seccion contacto" id="contacto">
+ 
+<h2>Contáctanos</h2>
+ 
+<form id="formulario">
+ 
+<input type="text" placeholder="Nombre" required>
+ 
+<input type="email" placeholder="Correo electrónico" required>
+ 
+<textarea rows="5" placeholder="Mensaje"></textarea>
+ 
+<button type="submit">
+Enviar Mensaje
+</button>
+ 
+</form>
+ 
+</section>
+ 
+<footer>
+© 2026 INGMAQ | Todos los derechos reservados
+</footer>
+ 
+https://wa.me/573001234567
+💬
+</a>
+ 
+<script>
+ 
+document.getElementById("formulario")
+.addEventListener("submit",function(e){
+ 
+e.preventDefault();
+ 
+alert("Gracias por contactar a INGMAQ.");
+ 
+this.reset();
+ 
+});
+ 
+const counters =
+document.querySelectorAll(".contador");
+ 
+counters.forEach(counter=>{
+ 
+const update=()=>{
+ 
+const target=
++counter.getAttribute("data-target");
+ 
+const count=
++counter.innerText;
+ 
+const increment=
+target/100;
+ 
+if(count<target){
+ 
+counter.innerText=
+Math.ceil(count+increment);
+ 
+setTimeout(update,20);
+ 
+}else{
+ 
+counter.innerText=
+target;
+ 
+}
+ 
+};
+ 
+update();
+ 
+});
+ 
+</script>
+ 
+</body>
+</html> 
